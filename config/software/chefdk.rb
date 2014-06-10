@@ -34,6 +34,8 @@ dependency "appbundler"
 dependency "berkshelf"
 dependency "chef-vault"
 
+dependency "ohai"
+
 sep = File::PATH_SEPARATOR || ":"
 path = "#{install_dir}/embedded/bin#{sep}#{ENV['PATH']}"
 

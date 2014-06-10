@@ -21,7 +21,6 @@ dependency "ruby"
 dependency "rubygems"
 dependency "yajl"
 dependency "bundler"
-dependency "ohai"
 
 default_version "master"
 
